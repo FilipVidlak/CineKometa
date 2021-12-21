@@ -83,5 +83,47 @@
   <ItemGroup>
     <None Include="Resources\CineKometa_background.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sedadlo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bought.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pohovka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightreserved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightbought.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reserved1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigreserved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightreserved1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftreservedrightbought.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftreserved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftbought.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftboughtrightreserved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigbought.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
