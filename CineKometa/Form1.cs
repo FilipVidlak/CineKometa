@@ -45,15 +45,15 @@ namespace CineKometa
         {
             if ((sender as PictureBox).ImageLocation == "../../Pictures/empty.png") {
                 if (rezervace.Checked == true) {
-                    (sender as PictureBox).ImageLocation = @"../../Pictures/..";
-                    MessageBox.Show("Rezervoval sis místo Řada: " + (sender as PictureBox).Name.Split(':')[1] + "  Sedadlo: " + (sender as PictureBox).Name.Split(':')[2]);
+                    (sender as PictureBox).ImageLocation = @"../../Pictures/reserved.png";
+                    MessageBox.Show("Rezervoval sis místo Řada: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[1]) + 1) + "  Sedadlo: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1));
 
 
                 }
     
                 else {
-                    (sender as PictureBox).ImageLocation = @"../../Pictures/..";
-                    MessageBox.Show("Koupil sis místo Řada: " + (sender as PictureBox).Name.Split(':')[1] + "  Sedadlo: " + (sender as PictureBox).Name.Split(':')[2]);
+                    (sender as PictureBox).ImageLocation = @"../../Pictures/bought.png";
+                    MessageBox.Show("Koupil sis místo Řada: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[1]) + 1) + "  Sedadlo: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1));
                 }
 
             }
@@ -61,24 +61,24 @@ namespace CineKometa
             {
                 if (rezervace.Checked == true)
                 {
-                    (sender as PictureBox).ImageLocation = @"../../Pictures/leftreserve.png";
-                    Seats[Int32.Parse((sender as PictureBox).Name.Split(':')[1]), Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1].ImageLocation = @"../../Pictures/rightreserve.png";
-                    MessageBox.Show("Rezervoval sis místo Řada: " + (sender as PictureBox).Name.Split(':')[1] + "  Sedadlo: " + (sender as PictureBox).Name.Split(':')[2]);
+                    (sender as PictureBox).ImageLocation = @"../../Pictures/leftreserved.png";
+                    Seats[Int32.Parse((sender as PictureBox).Name.Split(':')[1]), Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1].ImageLocation = @"../../Pictures/rightreserved.png";
+                    MessageBox.Show("Rezervoval sis místo Řada: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[1]) + 1) + "  Sedadlo: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1));
                 }
                 else
                 {
                     (sender as PictureBox).ImageLocation = @"../../Pictures/leftbuy.png";
-                    Seats[Int32.Parse((sender as PictureBox).Name.Split(':')[1]), Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1].ImageLocation = @"../../Pictures/leftbuy.png";
-                    MessageBox.Show("Koupil sis místo Řada: " + (sender as PictureBox).Name.Split(':')[1] + "  Sedadlo: " + (sender as PictureBox).Name.Split(':')[2]);
+                    Seats[Int32.Parse((sender as PictureBox).Name.Split(':')[1]), Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1].ImageLocation = @"../../Pictures/rightbuy.png";
+                    MessageBox.Show("Koupil sis místo Řada: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[1]) + 1) + "  Sedadlo: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1));
                 }
             }
             else if ((sender as PictureBox).ImageLocation == "../../Pictures/rightempty.png")
             {
                 if (rezervace.Checked == true)
                 {
-                    (sender as PictureBox).ImageLocation = @"../../Pictures/rightreserve.png";
-                    Seats[Int32.Parse((sender as PictureBox).Name.Split(':')[1]), Int32.Parse((sender as PictureBox).Name.Split(':')[2]) - 1].ImageLocation = @"../../Pictures/leftreserve.png";
-                    MessageBox.Show("Rezervoval sis místo Řada: " + (sender as PictureBox).Name.Split(':')[1] + "  Sedadlo: " + (sender as PictureBox).Name.Split(':')[2]);
+                    (sender as PictureBox).ImageLocation = @"../../Pictures/rightreserved.png";
+                    Seats[Int32.Parse((sender as PictureBox).Name.Split(':')[1]), Int32.Parse((sender as PictureBox).Name.Split(':')[2]) - 1].ImageLocation = @"../../Pictures/leftreserved.png";
+                    MessageBox.Show("Rezervoval sis místo Řada: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[1]) + 1) + "  Sedadlo: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1));
 
 
                 }
@@ -87,7 +87,7 @@ namespace CineKometa
                 {
                     (sender as PictureBox).ImageLocation = @"../../Pictures/rightbuy.png";
                     Seats[Int32.Parse((sender as PictureBox).Name.Split(':')[1]), Int32.Parse((sender as PictureBox).Name.Split(':')[2]) - 1].ImageLocation = @"../../Pictures/leftbuy.png";
-                    MessageBox.Show("Koupil sis místo Řada: " + (sender as PictureBox).Name.Split(':')[1] + "  Sedadlo: " + (sender as PictureBox).Name.Split(':')[2]);
+                    MessageBox.Show("Koupil sis místo Řada: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[1]) + 1) + "  Sedadlo: " + (Int32.Parse((sender as PictureBox).Name.Split(':')[2]) + 1));
                 }
             }
         }
