@@ -93,9 +93,39 @@ namespace CineKometa.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CineKometa {
+            get {
+                object obj = ResourceManager.GetObject("CineKometa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CineKometa_background {
             get {
                 object obj = ResourceManager.GetObject("CineKometa_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CineKometa_icon {
+            get {
+                object obj = ResourceManager.GetObject("CineKometa_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CineKometa_nadpis {
+            get {
+                object obj = ResourceManager.GetObject("CineKometa_nadpis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

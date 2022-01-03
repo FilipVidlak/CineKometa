@@ -121,8 +121,14 @@
   <data name="leftbought" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leftbought.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bigbought" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bigbought.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bigreserved" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bigreserved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftreserved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftreserved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reserved" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reserved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,14 +139,14 @@
   <data name="rightbought" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rightbought.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sedadlo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sedadlo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="leftboughtrightreserved" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leftboughtrightreserved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rightreserved" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rightreserved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CineKometa_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CineKometa_icon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rightreserved1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rightreserved1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,13 +160,16 @@
   <data name="CineKometa_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CineKometa_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="leftreserved" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leftreserved.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CineKometa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CineKometa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sedadlo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sedadlo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reserved1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reserved1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bigbought" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bigbought.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CineKometa_nadpis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CineKometa_nadpis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

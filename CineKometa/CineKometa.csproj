@@ -125,5 +125,14 @@
   <ItemGroup>
     <None Include="Resources\bigbought.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CineKometa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CineKometa_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CineKometa_nadpis.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
